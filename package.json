@@ -1,0 +1,35 @@
+{
+  "name": "@gandi/browserslist-config-gandi",
+  "version": "1.0.0",
+  "description": "Shareable Browserslist config for Gandi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gandi/browserslist-config-gandi"
+  },
+  "bugs": {
+    "url": "https://github.com/Gandi/browserslist-config-gandi/issues"
+  },
+  "homepage": "https://github.com/Gandi/browserslist-config-gandi",
+  "keywords": [
+    "browserslist",
+    "browserslist-config",
+    "gandi"
+  ],
+  "author": "Gandi",
+  "license": "ISC",
+  "private": false,
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserslist": "^2.5.1",
+    "jest": "^21.2.1"
+  }
+}
