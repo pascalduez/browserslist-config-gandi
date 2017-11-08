@@ -23,7 +23,7 @@ If you're directly consuming this package in an application, add this to your `p
 ```js
 {
   "browserslist": [
-    "extends browserslist-config-gandi"
+    "extends @gandi/browserslist-config-gandi"
   ]
 }
 ```
@@ -37,7 +37,7 @@ For example, when configuring [babel-preset-env](https://github.com/babel/babel/
   presets: [
     ['env', {
       targets: {
-        browsers: require('browserslist-config-gandi')
+        browsers: require('@gandi/browserslist-config-gandi')
       }
     }]
   ]
@@ -63,11 +63,11 @@ Please open an [issue](https://github.com/Gandi/browserslist-config-gandi/issues
 Else you can start contributing.
 
 
-### Code of conduct
+## Code of conduct
 
 Be nice. Thanks.
 
 
-### License
+## License
 
 ISC.
